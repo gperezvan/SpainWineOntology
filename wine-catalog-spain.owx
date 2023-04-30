@@ -1,0 +1,1057 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gerard/ontologies/2023/3/wine-catalog-spain"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gerard/ontologies/2023/3/wine-catalog-spain">
+    <Prefix name="" IRI="http://www.semanticweb.org/gerard/ontologies/2023/3/wine-catalog-spain/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Author: Gerard Pérez Vancells</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Domain: this ontology contains information about the wines of Spain.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Ontology name: Wine Catalog Spain</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Albarino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CabernetSauvignon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chardonnay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grenache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monastrell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MontsantRed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PedriXimenez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrioratRed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiberaDelDueroRed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiojaRed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiojaWhite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SauvignonBlanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sherry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparkling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syrah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempranillo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToroRed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verdejo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Winery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/ontology/region#BadReview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/ontology/region#NeutralReview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://dbpedia.org/ontology/region#PositiveReview"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReview"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makesReview"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stores"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNameWine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNameWinery"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wasMadeYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ReviewValoration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#acidityWine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#bodyWine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameCountry"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameRegion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#numReviewsWine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#priceWine"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ratingWine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery3"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Albarino"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CabernetSauvignon"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cava"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chardonnay"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grenache"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mencia"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monastrell"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MontsantRed"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PedriXimenez"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrioratRed"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <Class IRI="#Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Region"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isIn"/>
+            <Class IRI="#Country"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiberaDelDueroRed"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiojaRed"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiojaWhite"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SauvignonBlanc"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherry"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syrah"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempranillo"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToroRed"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verdejo"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+            <Class IRI="#Region"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/ontology/region#BadReview"/>
+        <Class IRI="#Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/ontology/region#NeutralReview"/>
+        <Class IRI="#Review"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://dbpedia.org/ontology/region#PositiveReview"/>
+        <Class IRI="#Review"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Region"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToroRed"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempranillo"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RiberaDelDueroRed"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winery"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winery"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Winery"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery3"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasRegion"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region1"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region2"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region3"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#stores"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery1"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#stores"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery2"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#stores"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery3"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameCountry"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#Spain"/>
+        <Literal>Spain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameRegion"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region1"/>
+        <Literal>Toro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameRegion"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region2"/>
+        <Literal>Vino de España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameRegion"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#region3"/>
+        <Literal>Ribera del Duero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNameWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <Literal>Tinto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasMadeYear"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#acidityWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#bodyWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#numReviewsWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">58</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#priceWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">995.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ratingWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNameWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <Literal>Vina el Pison</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasMadeYear"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#acidityWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#bodyWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#numReviewsWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#priceWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">313.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ratingWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNameWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <Literal>Unico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#wasMadeYear"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#acidityWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#bodyWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#numReviewsWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1793</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#priceWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">324.95</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ratingWine"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#wine3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNameWinery"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery1"/>
+        <Literal>Teso La Monja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNameWinery"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery2"/>
+        <Literal>Artadi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNameWinery"/>
+        <NamedIndividual IRI="https://dbpedia.org/ontology/region#winery3"/>
+        <Literal>Vega Sicilia</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasRegion"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isIn"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReview"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#makesReview"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#stores"/>
+        <Class IRI="#Winery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegion"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReview"/>
+        <Class IRI="#Review"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#makesReview"/>
+        <Class IRI="#Review"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#stores"/>
+        <Class IRI="#Wine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://dbpedia.org/ontology/region#isFrom"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNameWine"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasNameWinery"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#wasMadeYear"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ReviewValoration"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#acidityWine"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#bodyWine"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameCountry"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameRegion"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ratingWine"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNameWine"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNameWinery"/>
+        <Class IRI="#Winery"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wasMadeYear"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ReviewValoration"/>
+        <Class IRI="#Review"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#acidityWine"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#bodyWine"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameCountry"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameRegion"/>
+        <Class IRI="#Region"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#numReviewsWine"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#priceWine"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ratingWine"/>
+        <Class IRI="#Wine"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNameWine"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNameWinery"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wasMadeYear"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ReviewValoration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#acidityWine"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#bodyWine"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameCountry"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#hasNameRegion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#numReviewsWine"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#priceWine"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="https://dbpedia.org/ontology/region#ratingWine"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Review"/>
+                <Variable IRI="urn:swrl:var#o"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="https://dbpedia.org/ontology/region#ReviewValoration"/>
+                <Variable IRI="urn:swrl:var#o"/>
+                <Variable IRI="urn:swrl:var#w"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#w"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#w"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="https://dbpedia.org/ontology/region#NeutralReview"/>
+                <Variable IRI="urn:swrl:var#o"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Review"/>
+                <Variable IRI="urn:swrl:var#o"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="https://dbpedia.org/ontology/region#ReviewValoration"/>
+                <Variable IRI="urn:swrl:var#o"/>
+                <Variable IRI="urn:swrl:var#w"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#w"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="https://dbpedia.org/ontology/region#PositiveReview"/>
+                <Variable IRI="urn:swrl:var#o"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Review"/>
+                <Variable IRI="urn:swrl:var#o"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="https://dbpedia.org/ontology/region#ReviewValoration"/>
+                <Variable IRI="urn:swrl:var#o"/>
+                <Variable IRI="urn:swrl:var#w"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#w"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="https://dbpedia.org/ontology/region#BadReview"/>
+                <Variable IRI="urn:swrl:var#o"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Albarino</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CabernetSauvignon</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cava</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chardonnay</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Country</IRI>
+        <Literal xml:lang="en">Political geographic area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Country</IRI>
+        <Literal>https://dbpedia.org/ontology/country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Grenache</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mencia</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Monastrell</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MontsantRed</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PedriXimenez</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Human being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Person</IRI>
+        <Literal>https://dbpedia.org/ontology/person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrioratRed</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Red</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Region</IRI>
+        <Literal xml:lang="en">Large area of a surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Region</IRI>
+        <Literal xml:lang="en">https://dbpedia.org/ontology/region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Review</IRI>
+        <Literal xml:lang="en">Punctuation of the wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Review</IRI>
+        <Literal>https://dbpedia.org/ontology/review</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RiberaDelDueroRed</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RiojaRed</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RiojaWhite</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SauvignonBlanc</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sherry</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sparkling</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Syrah</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tempranillo</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ToroRed</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Verdejo</IRI>
+        <Literal xml:lang="en">Type of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="en">Fermented juice of grapes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Wine</IRI>
+        <Literal>https://dbpedia.org/page/Wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Winery</IRI>
+        <Literal xml:lang="en">Establishment where wine is made</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Winery</IRI>
+        <Literal>https://dbpedia.org/page/Winery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNameWine</IRI>
+        <Literal xml:lang="en">wine name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNameWinery</IRI>
+        <Literal xml:lang="en">winery name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRegion</IRI>
+        <Literal xml:lang="en">Idicates the relation between country and region. Is the oposite property of isIn.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasReview</IRI>
+        <Literal>Indicates the relation between wine and review</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isIn</IRI>
+        <Literal xml:lang="en">Indicates which region is inside of that country. Is the oposite property of hasRegion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#makesReview</IRI>
+        <Literal xml:lang="en">indicates the person who made this review</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stores</IRI>
+        <Literal xml:lang="en">Indicates wich winey stores that wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wasMadeYear</IRI>
+        <Literal xml:lang="en">year when was made this wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#acidityWine</IRI>
+        <Literal xml:lang="en">acidity punctuation of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#bodyWine</IRI>
+        <Literal xml:lang="en">body punctuation of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#hasNameCountry</IRI>
+        <Literal>country name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#hasNameRegion</IRI>
+        <Literal xml:lang="en">Region name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#isFrom</IRI>
+        <Literal xml:lang="en">indicates the region of the wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#numReviewsWine</IRI>
+        <Literal xml:lang="en">reviews number of wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#priceWine</IRI>
+        <Literal xml:lang="en">wine price</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://dbpedia.org/ontology/region#ratingWine</IRI>
+        <Literal xml:lang="en">wine general punctuation</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
